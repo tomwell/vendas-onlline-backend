@@ -1,0 +1,23 @@
+#requisições para api de usuário
+#==========================================
+
+#consultar todos os usuários
+GET http://localhost:8080/user
+Content-Type: application/json
+
+###
+
+#criar novo usuario
+POST http://localhost:8080/user
+Content-Type: application/json
+
+{
+  "name": "Alessandro",
+  "email": "alessandrocds@gmail.com",
+  "phone": "21964109745",
+  "cpf": "07819876794",
+  "password": "123456"  
+  
+}
+
+
